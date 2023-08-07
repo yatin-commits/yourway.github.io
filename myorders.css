@@ -1,0 +1,277 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*
+{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.customerName{
+    padding: 50px 50px 0px 56px ;
+    font-family: font-family: 'Bebas Neue', sans-serif;;
+    font-size: 30px;
+    /* display
+    : none; */
+}
+
+.mainArea
+{
+    display: flex;
+    flex-direction: row ;
+    padding: 0px 50px 40px 50px ;
+}
+.leftSide
+{
+    padding: 0px 50px 0px px ;
+    flex: 1;
+
+}
+.dabbeMeDabba
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.icon
+{
+    /* flex: ; */
+}
+
+.prodHead
+{
+    font-size: 36px;
+}
+.price
+{
+    font-weight: 400;
+    font-size: 24px;
+}
+svg{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    
+}
+
+.leftBoxes
+{
+    border: 2px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+}
+.rightSide
+{
+    padding: 0px 50px 0px 50px ;
+    flex: 3
+}
+.myorders
+{
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* display: inline-block; */
+    /* text-align: center;
+    align-items: center ;
+   
+   
+    flex: 3;
+    padding: 0;
+    margin: 0px; */
+    flex: 3;
+    font-size: 44px;
+}
+.custName
+{
+    flex: 3.5;
+    padding: 20px 0px 00px 50px ;
+    font-size: 30px;
+    
+}
+.welcomeCust{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.myorders h1{
+    font-size: 48px;
+    
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+}
+.sort-dropdown{
+    /* float: right; */
+    /* text-align: right; */
+    /* display: inline-block; */
+    /* float: right; */
+    text-align: right;
+    /* top: 100%; */
+    /* border: 3px solid black; */
+    /* display: inline; */
+    
+}
+.sort-dropdown select{
+    border: 3px solid black;
+}
+
+.ordered
+{
+    /* width: 816px;
+    height: 479px; */
+    flex-shrink: 0;
+    border-radius: 10px;
+border: 3px solid rgba(0, 0, 0, 0.20);
+margin-top: 4px;
+}
+
+
+
+.piture
+{
+    width: 133.333px;
+    height: 200px;
+    /* flex-shrink: 0; */
+    padding: 20px 0px 20px 20px;
+    flex: 1;
+}
+.namenAll
+{
+    flex: 4;
+    padding: 30px;
+    /* background-color: ;/ */
+}
+.allInOne
+{
+    /* background-color: black;
+    margin: 20px; */
+}
+.orderedInfo
+{
+    display: flex; 
+    margin: 20px; 
+    background-color: #F4F4F4;/
+    border-radius: 10px;
+    /* padding: 30px; */
+     
+    /* padding: 20px; */
+}
+.SizeBolte
+{
+    font-weight: 400;
+    font-size: 14px;
+}
+.size
+{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ordDetails
+{
+    /* float: right; */
+    /* top: 80%; */
+    /* display: none; */
+    /* display: inline; */
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.detailText
+{
+    padding: 0px 30px 7px 0px ;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.secondDivContainer
+{
+    display: flex;
+}
+
+.secondLeft
+{
+    padding: 0px 0px 0px 20px;
+    width: 50%;
+}
+
+.star
+{
+    /* display: ; */
+    cursor: pointer;
+    /* height: 50px; */
+    transform: scale(1.4);
+    margin-top: 2px;
+    /* padding: 4px; */
+    /* margin-right: 5px; */
+
+}
+.stars
+{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    flex: 3;
+
+}
+#ordId{
+    font-weight: 400;
+    font-size: 24px;
+}
+.secondRight
+{
+    /* padding: 20px; */
+    padding: 0px 20px 20px 20px ;
+    width: 50%;
+    /* width: 30%; */
+}
+.delvText{
+    color: #1400FF;
+    font-weight: 400;
+}
+.rating
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: auto;
+}
+.ratingText
+{
+    font-weight: 400;
+    padding: 0px 10px;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.dwnldBtn
+{
+    float: right;
+    margin-top: 10px;
+    /* padding: 5px 0px ; */
+    border-radius: 5px;
+    border: 3px solid rgba(0, 0, 0, 0.30);
+    background: #E3E3E3;
+    display: inline-block;
+}
+.dwnlodDiv
+{
+    display: flex;
+    padding: 6px 6px 0px 6px;
+}
+
+.helpnAll
+{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 42px 20px 0px;
+    font-weight: 400;
+    text-decoration: underline;
+    
+    
+
+
+    
+}

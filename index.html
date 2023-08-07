@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+   
+    <!-- LOGO AND PROFILE ETC -->
+    <div class="container1 flex mt-7 justify-between">
+      <div class="left ml-14">
+        <a href=""><img class="w-40" src="yourway.jpg" alt="" /></a>
+      </div>
+      <div class="right flex mr-14">
+        <a class="mr-10" href="#"><img class="w-8" src="Search.jpg" alt="" /></a>
+        <a class="mr-10" href="#"><img class="w-8" src="Buy.jpg" alt="" /></a>
+        <div class="profile-container">
+          <a href="#"><img class="w-8" src="Profile.jpg" alt="" id="profile"/></a>
+          <div class="dropdown-content">
+           <div id="blackSign">
+            SIGN IN
+           </div>
+            <p class="newUser">New User? Register</p>
+            <div id="gmailSignin">
+              <img src="./google.png" class="googleImg" alt="">
+              SIGN IN WITH GMAIL
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <div class="container2">
+      <ul class="flex justify-center">
+        <li class="mx-5 hover:shadow-md"><a href="#">CLASSIC</a></li>
+        <li class="mx-5 hover:shadow-md"><a href="#">COMFORT</a></li>
+        <li class="mx-5 hover:shadow-md"><a href="#">CASUAL</a></li>
+        <li class="mx-5 hover:shadow-md"><a href="#">STREET</a></li>
+      </ul>
+
+      <!-- /////dropdown -->
+      <!-- LOGO AND PROFILE ETC -->
+
+
+    </div>
+
+    <!-- SLIDE-1 -->
+    <div
+      class="container3 bg-violet-300 rounded-3xl flex justify-between my-20 mx-12 main"
+    >
+      <div class="left-images self-end">
+        <img class="relative" src="shoe.png" alt="" />
+        <a href=""
+          ><img class="absolute left-72 top-2/3" src="tag1.png" alt=""
+        /></a>
+      </div>
+      <div class="heading mt-28 flex flex-col items-center justify-self-center -ml-16 testing">
+        <h1 class="text-6xl  font-bold know">KNOW YOUR STYLE</h1>
+        <h1 class="text-4xl font-semibold take">TAKE A QUIZ</h1>
+        <button id="start">START</button>
+      </div>
+      
+      
+      <div class="right-images -mx-12 -mt-28">
+        <img class="relative" src="launda.png" alt="" />
+        <a href="#"
+          ><img class="absolute right-72 bottom-60" src="tag2.png" alt=""
+        /></a>
+      </div>
+    </div>
+
+
+    <!-- //SIGN IN KI GAJAH -->
+
+    <div class="signin-modal" id="signinModal">
+
+
+      <!-- ///signin ka dabba -->
+      <div class="signin-box" id="signInForm">
+       
+        <div class="signin-container">
+          <div class="anderkamaal">
+         <h1 class="signHead">SIGN IN</h1>
+         <p>
+          Become A Member -don't miss out on deal,offer,discounts and bonous vouchers.
+         </p>
+         <div class="faram">
+            <label for="">EMAIL <sup class="super">*</sup></label><br>
+            <input type="text" class="emailInput" >
+            <br>
+            <label for="" class="emailLable">PASSWORD <sup class="super">*</sup></label><br>
+            <input type="text" class="emailInput" >
+            <br>
+            <div class="remember-me-container">
+              <input type="checkbox" id="rememberMe" name="rememberMe" checked>
+              <label class="remember-me-label remember" for="rememberMe">Remember Me</label>
+              <br>
+              <div class="submitBtns">
+                <button id="signinBtn">SIGN IN</button>
+                <button id="registerBtn">REGISTER</button>
+              </div>
+             
+            </div>
+
+         </div>
+        </div>
+        </div>
+      </div>
+
+<!-- register ka dabba -->
+    
+
+      <div class="register-box" id="registerForm" style="display: none;">
+       
+        <div class="signin-container">
+          <div class="anderkamaal">
+         <h1 class="signHead">REGISTER</h1>
+         <p>
+          <!-- Become A Member -don't miss out on deal,offer,discounts and bonous vouchers. -->
+         </p>
+         <div class="faram">
+            <label for="">EMAIL <sup class="super">*</sup></label><br>
+            <input type="text" class="emailInput" >
+            <br>
+            <label for="" class="emailLable">PASSWORD <sup class="super">*</sup></label><br>
+            <input type="text" class="emailInput" >
+            <br>
+            <div class="remember-me-container">
+              <input type="checkbox" id="rememberMe" name="rememberMe" checked>
+              <label class="remember-me-label remember" for="rememberMe">Remember Me</label>
+              <br>
+              <div class="submitBtns">
+                <button id="signinBtn">REGISTER</button>
+              </div>
+             
+            </div>
+
+         </div>
+        </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- SLIDE-2 -->
+    <div class="container4 mx-12 relative">
+      <img class="my-20 w-full h-full" src="slide-2.png" alt="" />
+      <a href="#"><div class="woman h-full absolute top-0 w-1/2"></div></a>
+      <a href="#"><div class="man h-full absolute top-0 right-0 w-1/2"></div></a>
+    </div>
+
+    <!-- SLIDE-3 -->
+
+    <div class="container5 my-20 mx-12 bg-gray-200 flex justify-between h-56">
+      <div class="left_container5 mx-14 self-center">
+        <p class="font-extrabold text-4xl">
+          OTMANIA - UPTO <span class="text-red-600">50% OFF</span> ON SELECTED
+          ITEMS
+        </p>
+        <p class="font-semibold text-3xl">VALID UNTIL STOCK LASTS</p>
+      </div>
+      <div class="right_container5 self-end -mx-10 relative">
+        <a href=""><img
+          class="absolute bottom-28 right-52"
+          src="container5 ka tag.png"
+          alt=""
+        /></a>
+        <img class="h-72" src="container5 ka launda.png" alt="" />
+      </div>
+    </div>
+
+    <!-- BESTSELLERS -->
+    <div class="container6 mx-12 my-20">
+      <div
+        class="container_title h-2 w-3/4 text-center m-auto text-2xl font-semibold flex items-center">
+      
+        <div class="line1 h-1 w-full bg-black"></div>
+
+        <span class="mx-1">BESTSELLERS</span>
+        <div class="line2 h-1 bg-black w-full"></div>
+      </div>
+      <div class="outfits flex justify-between my-20">
+        <div class="outfit">
+          <img src="bestseller1.png" alt="" />
+          <div class="outfit_details my-2">
+            <a class="hover:underline" href="#"><span class="font-bold text-lg">SLOGAN TSHIRT</span></a>
+            <span class="font-semibold text-lg block -mt-2">&#8377; 2000</span>
+          </div>
+        </div>
+        <div class="outfit">
+          <img src="bestseller2.png" alt="" />
+          <div class="outfit_details my-2">
+            <a class="hover:underline" href="#"><span class="font-bold text-lg">COM SHIRT</span></a>
+            <span class="font-semibold text-lg block -mt-2">&#8377; 2900</span>
+          </div>
+        </div>
+        <div class="outfit">
+          <img src="bestseller3.png" alt="" />
+          <div class="outfit_details my-2">
+            <a class="hover:underline" href="#"><span class="font-bold text-lg">NAT SHIRT</span></a>
+            <span class="font-semibold text-lg block -mt-2">&#8377; 3000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OUTFIT OF THE DAY -->
+    <div class="container7 mx-24 my-20">
+      <div
+        class="container_title h-2 w-3/4 text-center m-auto text-2xl font-semibold flex items-center">
+      
+        <div class="line1 h-1 w-full bg-black"></div>
+
+        <span class="mx-1 w-2/3">OUTFIT OF THE DAY</span>
+        <div class="line2 h-1 bg-black w-full"></div>
+      </div>
+      <div class="my-20 relative">
+        <img src="ootd ka launda.png" alt="" />
+        <a href="#"
+          ><img class="absolute top-80 left-72" src="ootd shirt tag.png" alt=""
+        /></a>
+        <a href="#"
+          ><img
+            class="absolute bottom-1/3 right-80"
+            src="ootd jeans tag.png"
+            alt=""
+        /></a>
+
+        <a href=""
+          ><img
+            class="absolute left-64 bottom-36"
+            src="ootd shoes tag.png"
+            alt=""
+        /></a>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container8 bg-gray-300 flex justify-start flex-wrap">
+      <div class="footer_left flex my-5 w-1/2">
+        <div class="footer_shop flex flex-col mx-20">
+          <h3 class="font-bold text-sm">SHOP</h3>
+          <a href=""><span class="text-xs font-medium text-gray-700">MAN</span></a>
+          <a href=""><span class="text-xs font-medium text-gray-700">WOMAN</span></a>
+        </div>
+        <div class="footer_categories flex flex-col mx-10">
+          <h3 class="font-bold text-sm">CATEGORIES</h3>
+          <a href="#"><span class="text-xs font-medium text-gray-700">CLASSIC</span></a>
+          <a href="#"><span class="text-xs font-medium text-gray-700">CONFORT</span></a>
+          <a href="#"><span class="text-xs font-medium text-gray-700">CASUAL</span></a>
+          <a href="#"><span class="text-xs font-medium text-gray-700">CASUAL</span>
+          <a href="#"><span class="text-xs font-medium text-gray-700">STREET</span>
+        </div>
+        <div class="footer_help flex flex-col mx-10">
+          <a href="#"><h3 class="font-bold text-sm">HELP</h3></a>
+        </div>
+        <div class="footer_policies flex flex-col mx-10">
+          <a href="#"><h3 class="font-bold text-sm">POLICIES</h3></a>
+        </div>
+      </div>
+      <div class="footer_right my-5 w-1/2">
+        <div class="footer_newsletter flex flex-col mx-44">
+          <h3 class="font-bold text-sm">JOIN OUR NEWSLETTER</h3>
+          <p class="leading-5 my-3">
+            Sign up now and be the first to know about exclusive offers, latest
+            fashion news & style tips!
+          </p>
+          <form action="#">
+            <input
+              class="bg-gray-300 font-bold text-sm border-b-2 border-black pb-1 w-72"
+              type="email"
+              name="email"
+              placeholder="YOUR EMAIL ADDRESS"
+            />
+            <button class="font-bold text-xl tracking">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+      <p class="block mx-auto my-10">
+        The content of this site is copyright-protected and is the property of
+        youway.
+      </p>
+    </div>
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>

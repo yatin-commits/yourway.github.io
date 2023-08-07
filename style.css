@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.profile-container {
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .dropdown-content {
+
+    width: 190px;
+    position: absolute;
+    top: 100%;
+    right: 0; 
+    background-color: white; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none; 
+    z-index: 2; 
+    border-radius: 5px;
+  }
+  #blackSign
+  {
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  } 
+  #gmailSignin
+  {
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 12px;
+    cursor: pointer;
+  } 
+
+  .googleImg{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+
+  }
+  
+  .newUser
+  {
+    padding: 4px;
+    font-size: 15px;
+  }
+
+
+
+  .know
+  {
+    display: flex;
+    justify-content: flex-start;
+    /* margin-right: 100px; */
+    float: left;
+    
+  }
+
+ 
+  
+.take
+{
+    margin-top: 10px;
+}
+  #start
+  {
+    display: block;
+    padding: 12px;
+    font-weight: bold;
+    width: 125px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    border:1px solid black;
+  }
+  
+
+
+  .signin-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    z-index: 3; /* Ensure the modal is above other content */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signin-box {
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    /* padding: 80px; */
+    text-align: center;
+    border-radius: 0px;
+  }
+  .register-box {
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    /* padding: 80px; */
+    text-align: center;
+    border-radius: 0px;
+  }
+
+
+
+
+  /* ///signin model */
+
+
+
+  .signHead
+  {
+    text-align: left;
+    font-size: 30px;
+    margin: 0px;
+    font-family: poppins;
+    /* padding: 30px 0px 0px 30px ; */
+  }
+  
+
+  .anderkamaal{
+    padding: 30px 30px 0px 30px ;
+    text-align: justify;
+    font-family: poppins;
+  }
+
+  .faram{
+    padding: 30px 30px 0px 30px ;
+  }
+
+  .emailInput{
+    margin-top: 7px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    padding: 0px 0px 0px 10px;
+    width: 90%;
+    height: 35px;
+    /* margin-top: 0px; */
+  }
+  .passInput{
+    margin-top: 15px;
+    background-color: lightgray;
+    padding: 0px 0px 0px 10px;
+    width: 90%;
+    height: 35px;
+    /* margin-top: 0px; */
+  }
+
+  .super
+  {
+    color: red;
+    font-size: 13px;
+  }
+
+  #signinBtn{
+    display: inline;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    background-color: black;
+    color: white;
+
+
+  }
+  #registerBtn
+  {
+    display: inline;
+    padding: 15px 0px;
+    font-weight: 450;
+
+  }
+  .remember
+  {
+    margin-bottom: 20px;
+  }
+
+
+  .submitBtns
+  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }

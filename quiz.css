@@ -1,0 +1,28 @@
+.quizHead
+{
+    padding: 50px 70px;
+    font-size: 40px;
+    font-family: poppins;
+}
+
+.quizContainer
+{
+    height: 200px;
+    border: 1px solid black;
+    width: auto;
+    padding: 20px 130px 0px 20px ;
+    border-radius: 20px;
+} 
+.hardContainer{
+    
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ques,.rank
+{
+    font-weight: bold;
+}
+
